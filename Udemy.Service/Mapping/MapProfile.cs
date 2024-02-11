@@ -16,7 +16,8 @@ namespace Udemy.Service.Mapping
             CreateMap<Product, ProductDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<ProductFeature, ProductFeatureDto>().ReverseMap();
-            CreateMap<Product,ProductWithCategoryDto>();
+            CreateMap<Product, ProductWithCategoryDto>();
+            CreateMap<Category, CategoryWithProductsDto>();
         }
     }
 }
